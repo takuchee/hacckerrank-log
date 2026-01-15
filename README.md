@@ -1,0 +1,2 @@
+# hacckerrank-log
+HackerRankでやったことのメモ
