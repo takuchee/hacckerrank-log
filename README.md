@@ -1,2 +1,3 @@
-# hacckerrank-log
+# hackerrank-log
 HackerRankでやったことのメモ
+思ったこと考えたことをありのままに
