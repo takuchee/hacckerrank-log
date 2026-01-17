@@ -1,4 +1,9 @@
 # 2026/01/16
+
+# 問題概要
+2つの同じ長さの配列をインデックスごとに比較し、大きい値を持つ方に1点ずつ加算して最終スコアを返す問題。
+
+# 解法
 ```
 def compareTriplets(a, b):
     # Write your code here
@@ -11,6 +16,8 @@ def compareTriplets(a, b):
             bobPoint += 1
     return [alicePoint,bobPoint]
 ```
+
+# メモ
 pythonならzip関数を使用して、各要素を取り出すようにした方がシンプルにできそう
 ```
 ...for a, b in zip(a, b):
