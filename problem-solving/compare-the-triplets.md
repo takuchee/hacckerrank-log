@@ -3,7 +3,7 @@
 # 問題概要
 2つの同じ長さの配列をインデックスごとに比較し、大きい値を持つ方に1点ずつ加算して最終スコアを返す問題。
 
-# 解法
+# 自分の回答
 ```python
 def compareTriplets(a, b):
     # Write your code here
