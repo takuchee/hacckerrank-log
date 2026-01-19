@@ -3,7 +3,7 @@
 # 問題概要
 正方形の数字列があった場合、その対角線上の和の絶対差を計算する。
 
-# 解法
+# 自分の回答
 ```python
 def diagonalDifference(arr):
     # Write your code here
