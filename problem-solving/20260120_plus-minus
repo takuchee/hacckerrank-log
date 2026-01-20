@@ -1,0 +1,44 @@
+# 2026/01/20
+# 問題概要
+配列から正の数、負の数、ゼロのものをカウントしてそれらを配列の長さで割ったものを出力する
+
+# 自分の回答
+```
+def plusMinus(arr):
+    # Write your code here
+    countArr = [0, 0, 0]
+    for i in arr:
+        if i > 0:
+            countArr[0] += 1
+        elif i < 0:
+            countArr[1] += 1
+        else:
+            countArr[2] += 1
+            
+    for c in countArr:
+        ans = c / len(arr)
+        print(f"{ans:.5f}")
+    
+```
+
+# 補足
+最初はdictを使おうとした。でも今回の場合だとただの箱にしかならない。
+可読性は全くない。
+以下のように配列でまとめるんじゃなくてそれぞれ変数で定義する方が読みやすさはある
+```
+def plusMinus(arr):
+    # Write your code here
+    pos, nega, zero = 0, 0, 0
+    
+    for i in arr:
+        if i > 0:
+            pos += 1
+        elif i < 0:
+            nega += 1
+        else:
+            zero += 1
+    
+    for c in [pos, nega, zero]:
+        ans = c / len(arr)
+        print(f"{ans:.5f}")
+```
