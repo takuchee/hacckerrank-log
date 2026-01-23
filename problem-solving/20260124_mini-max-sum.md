@@ -19,4 +19,4 @@ def miniMaxSum(arr):
     print(total - max(arr), total - min(arr))
 ```
 # 補足
-TODO：sumの実装内容、処理時間の違いを調べる
+TODO：sum、sortの実装内容、処理時間の違いを調べる
