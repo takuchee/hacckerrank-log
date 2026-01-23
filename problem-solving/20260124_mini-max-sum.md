@@ -11,7 +11,7 @@ def miniMaxSum(arr):
   arr.sort()
   print(sum(arr[:4]), sum(arr[1:]))
 ```
-以下の方がsumが一つで済むのでパフォーマンスよさそう
+以下の方がsumが一つで済み、sortの処理も削減できるのでパフォーマンスよさそう
 ```python
 def miniMaxSum(arr):
     # Write your code here
