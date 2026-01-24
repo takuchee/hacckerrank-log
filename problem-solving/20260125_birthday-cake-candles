@@ -12,8 +12,9 @@ def birthdayCakeCandles(candles):
 ```
 
 # 補足
-べた書きすると以下
-mxが更新されたときはcntを1にするよう注意する
+計算量: O(n)
+べた書きすると以下(上記と違って一回の実行)
+mxが更新されたときは以前のcntをリセットする必要があるので、1にするよう注意する
 ```python
 def birthdayCakeCandles(candles):
     # Write your code here
