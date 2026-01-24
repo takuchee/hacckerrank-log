@@ -11,6 +11,7 @@ def miniMaxSum(arr):
   arr.sort()
   print(sum(arr[:4]), sum(arr[1:]))
 ```
+# 補足
 以下の方がsumが一つで済み、sortの処理も削減できるのでパフォーマンスよさそう
 ```python
 def miniMaxSum(arr):
@@ -18,5 +19,3 @@ def miniMaxSum(arr):
     total = sum(arr)
     print(total - max(arr), total - min(arr))
 ```
-# 補足
-TODO：sum、sortの実装内容、処理時間の違いを調べる
